@@ -1,0 +1,354 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.main-menu, .vartical-menu, .header-pre{
+	width:1200px;
+	margin:0px auto;
+}
+.header-pre{
+	margin-top:10px;
+}
+.header-pre{
+	margin-top:10px;
+}
+.fix{
+	overflow:hidden;
+}
+/* START LOGO & SEARCH AREA */
+.logo{
+	width:10%;
+	float:left;
+}
+.logo-text{
+	width:20%;
+	float:left;
+}
+.search-social{
+	width:70%;
+	float:right;
+	text-align:right;
+}
+.search-social i{
+	font-size:26px;
+}
+.logo-text a{
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+}
+
+.search-social input[type=text]{
+	width:200px;
+	padding: 5px;
+	border-radius:5px;
+	border: 1px solid black;
+}
+.need-website {
+	padding:10px 16px;
+	background:blue;
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+	border-radius:5px;
+}
+.need-website:hover {
+	background:black;
+}
+.search{
+	background: blue;
+	padding:4px;
+	text-decoration:none;
+	border-radius:5px;
+	border: 1px solid black;
+	color:white;
+}
+.search:hover{
+	background: black;
+}
+.search-social ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+}
+.search-social ul li a{
+	display:block;
+	padding:10px 12px;
+	color:blue;
+	text-decoration:none;
+	margin-right:5px;
+}
+.search-social ul li a:hover{
+	color:black;
+}
+.search-social li {
+	float:right;
+	
+}
+
+/* END LOGO & SEARCH AREA */
+
+
+
+/* start main menu and dropdown*/
+
+.active{
+	background:green;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+}
+.float-right{
+	float:right;
+}
+.nav{
+	min-height:48px;
+	background:blue;
+	margin-bottom:5px;
+	border-radius:5px;
+}
+.nav ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	
+}
+
+.nav ul li{
+	float:left;
+	position:relative;  /* add for sub dropdown .nav ul li ul*/
+}
+.nav ul li a{
+	color:white;
+	display:block;
+	padding:14px 16px;
+	text-decoration:none;
+	font-weight:bold;
+}
+.nav ul li:hover{
+	background:black;
+}
+
+/* dropdown-menu*/
+
+.nav ul li ul{
+	
+	position:absolute;
+	left:-999999px;
+}
+.nav ul  li:hover ul{
+	left:0px;
+}
+.nav ul li ul li {
+	float:none;
+	border-bottom: 1px solid white;
+	width:96px;
+	text-align:center;
+	position:relative; /* add for sub dropdown .nav ul li ul li ul*/
+}
+.nav ul li ul li:last-child{
+	border-bottom: 0px solid;
+}
+.nav ul li ul li a{
+	background:#7e3bad;
+	padding:8px 16px;
+	font-weight:normal;
+	font-size:12px;
+}
+.nav ul li ul li a:hover{
+	background:#4d2767;
+}
+
+/* Sub dropdown-menu*/
+.nav ul li ul li ul{
+	
+	position:absolute;
+	left:-999999px;
+}
+.nav ul li ul li:hover ul{
+	margin-left:96px;
+	top:0px;
+}
+.nav ul li ul li ul li{
+	float:none;
+	border-bottom: 1px solid white;
+	width:96px;
+}
+.nav ul li ul li ul li:last-child{
+	border-bottom: 0px solid;
+}
+.nav ul li ul li ul li a{
+	background:#b37adc;
+	padding:14px 16px;
+	font-weight:normal;
+	font-size:12px;
+}
+.nav ul li ul li ul li a:hover{
+	background:#e818c3;
+}
+
+/* End main menu and dropdown*/
+
+
+/* Vertial nav menu carousalcss */
+.nav-menu{
+	width:12%;
+	float:left;
+}
+.about-mkhwa{
+	width:86%;
+	float:right;
+}
+
+
+.nav-menu{
+	background:#6d055d;
+	border-radius:5px;
+}
+.nav-menu ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.nav-menu ul li{
+	width:145px;
+	border-bottom:1px solid white;
+	position:relative; /* add for nav-menu dropdown 1 */
+}
+.nav-menu ul li:last-child{
+	border-bottom:1px solid white;
+}
+.nav-menu ul li a{
+	display:block;
+	text-decoration:none;
+	padding:14px 16px;
+	color:white;
+	font-weight:bold;
+	font-size:12px;
+}
+.nav-menu ul li:hover{
+	background:#7b6878;
+}
+
+/* nav-menu dropdown 1 */
+.nav-menu ul li ul{
+	position:absolute;
+	left:-999999px;
+	
+}
+.nav-menu ul  li:hover ul{
+	left:145px;
+	top:0;
+}
+.nav-menu ul li ul li {
+	float:none;
+	border-bottom: 1px solid white;
+	width:120px;
+	text-align:center;
+}
+.nav-menu ul li ul li:last-child{
+	border-bottom: 0px solid;
+}
+.nav-menu ul li ul li a{
+	background:#892583;
+	padding:8px 16px;
+	font-weight:normal;
+	font-size:12px;
+}
+.nav-menu ul li ul li a:hover{
+	background:#433642;
+}
+
+/* nav-menu dropdown 2,3,4,5 etc  no change design same dropdown 1*/
+/* End nav-menu dropdown */
+
+/* about-mkhwa */
+ h1{
+	 margin-top:20px;
+	 margin-bottom:20px;
+	 padding-bottom:10px;
+	 border-bottom:5px solid #3c3836;
+	 font-weight:bold;
+	 text-align:center;
+ }
+ p{
+	 text-align:justify;
+ }
+ /* END vertical and about-mkhwa*/
+ 
+ /* footer */
+.footer-section{
+	width:1200px;
+	margin:4px auto;
+}
+.footer-nav{
+	width:70%;
+	float:left;
+	background:#292525;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+}
+.copyrightandpower{
+	width:30%;
+	float:right;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+}
+.copyright{
+	width:50%;
+	float:left;
+}
+.powered-by{
+	width:50%;
+	float:right;
+}
+/* menufooter */
+.footer-nav ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.footer-nav ul li{
+	width:120px;
+	height:35px;
+	line-height:35px;
+	float:left;
+	border-right: 2px solid #221b1b;
+	border-left: 2px solid #806464;
+	text-align:center;
+}
+.footer-nav ul li:first-child{
+	border-left: 0px solid;
+}
+.footer-nav ul li:last-child{
+	border-right: 0px solid;
+}
+.footer-nav ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+}
+.footer-nav ul li a:hover{
+	background:#b8a8a8;
+}
+
+ /* powered by*/
+ .copyrightandpower{
+	 background:#292525;
+	 font-size:12px;
+ }
+
+ .powered-by a{
+	 text-decoration:none;
+	 color:blue;
+	 font-size:14px;
+ }
+ .powered-by p{
+	 line-height:35px;
+	 color:white;
+ }
+ .copyright p{
+	 color:white;
+	 line-height:35px;
+ }

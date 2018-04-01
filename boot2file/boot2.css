@@ -1,0 +1,154 @@
+
+
+
+/*-------MENUBAR AREA-------*/
+.inline_search{
+	border-left:none !important;
+	border-radius: 0px 0px 0px 0px!important;
+}
+
+.right_border{
+border-radius: 0px 0px 0px 0px!important;
+border:none !important;
+background:#EDEDEB !important;
+padding-right:80px !important;
+}
+.background_search {
+    background: none repeat scroll 0 0 #EDEDEB !important;
+    padding: 6px 5px 10px !important;
+}
+.background_singup {
+    background: none repeat scroll 0 0 #EDEDEB !important;
+    border-radius: 3px 3px 3px 3px !important;
+    padding: 2px !important;
+}
+
+.col-md-7,  .col-sm-7{
+	padding-bottom:0px !important;
+	padding-top:5px;
+}
+.col-md-3, .col-sm-3{
+	padding-top:5px;
+}
+
+.updown1{
+	margin:14px 0px 0px 0px !important;
+	text-align:right !important;
+}
+.nothover{
+	text-decoration:none !important;
+	color:white ! important;
+}
+
+.jumbotron{
+	background:url('image/banner.png') no-repeat center center ! important;
+	padding-top:0px !important;
+	margin:0!important;
+}
+
+p{
+	font-size:12px !important;
+}
+.navbar-brand{
+	padding-left:0px !important;
+	padding-top: 0px !important;
+}
+
+
+/*-------BANNER CAPTION AREA-------*/
+.button_design{
+	border-radius: 0px 0px 0px 0px!important;
+	border:none !important;
+	background:#5bbc2e ! important;
+	margin-top:50px !important;
+	margin-bottom:50px !important;
+}
+.banner_ditance{
+	padding-top:80px;
+}
+h3{
+	margin-top:100px !important;
+}
+
+
+/*-------MAINCONTENT AREA-------*/
+
+h4{
+	padding:8px 0px 8px 0px;
+	background:#5bbc2e;
+	margin-bottom:0px !important;
+}
+.margin_right{
+    padding-right:40px !important;
+}
+.margin_left{
+	padding-left:40px !important;
+}
+.col-sm-2{
+	font-size:40px;
+	margin-top:9px;
+}
+.col-sm-10{
+	padding:0px 16px 0px 0px !important;
+}
+.well{
+	border-radius: 0px 0px 0px 0px!important;
+	margin:0px 0px 0px 0px!important;
+	padding:0px 0px 60px 0px !important;
+}
+.bellow_banner{
+	margin-top:60px;
+}
+.inn_back_adva{
+	background:white;
+	border-radius:10px;
+	padding:20px;
+}
+
+/*-------Slider/Great Job.. AREA-------*/
+
+.slider_margin{
+	margin-top:40px !important;
+}
+.glyphicon{
+	color:green!important;
+}
+.text_color{
+	color:black;
+}
+.carousel-caption{
+	bottom:-36px !important;
+}
+.border_img{
+	border:2px solid green;
+	border-radius:5px;
+}
+.col-sm-7{
+	padding-bottom:60px;
+}
+
+
+/*-------How does it work AREA-------*/
+.left_hdw{
+	margin:0 !important;
+	padding:0!important;
+}
+.right_hdw {
+    background: none repeat scroll 0 0 green;
+    color: white;
+    margin: 0 !important;
+    padding: 0 47px 78px 47px !important;
+}
+.right_background_con{
+	padding-right:0px !important;
+}
+
+/*-------Pre-footer AREA-------*/
+.button2_design{
+	padding:8px;
+	color:white;
+	background:green;
+	border-radius:7px;
+}
+
+

@@ -1,0 +1,337 @@
+
+.fix{overflow:hidden}
+.alignleft{float:left }
+.alignright{float:right}
+
+.header{background: #313131}
+.header_inner{margin-left: 223px;
+    margin-right: 223px;
+    width: 68%;}
+	
+	
+	
+.logout p {
+    background: none repeat scroll 0 0 white;
+    float: right;
+    font-size: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logout a {
+    text-decoration:none;
+}
+.logout a:hover {
+    color:red;
+}
+.logout a:visited {
+    color:blue;
+}
+
+
+
+.header_left{width: 20%; float:left}
+.header_left h1{color:#ffffff; font-size:40px; margin-top:0px;}
+.header_right{width:80%; float:right}
+.header_right ul{
+	float:right;
+}
+.header_right li{list-style:none; display:inline}
+.header_right a{text-decoration:none; color:#ffffff; padding:22px; font-size:15px}
+.header_right a:hover{text-decoration:underline}
+body{
+	max-width:100%;
+	overflow-x:hidden;
+}
+.banner_area{}
+.banner_inn{position:relative; }
+.banner_image img{width:100%}
+.banner_text p {
+    font-size: 26px;
+    left: 430px;
+    position: absolute;
+    top: 175px;
+}
+.banner_text p a{text-decoration:none; color:#ffffff; padding:18px}
+
+
+.about_me_text {
+    margin-left: 223px;
+    margin-right: 223px;
+    width: 68%;
+}
+.about_me_text h2{text-align:center; margin-top:40px}
+.uppercase{text-align:center; margin-top: 13px;}
+.lowercase{ margin-top: 15px;  margin-bottom: 15px}
+.image_left {width:24%; float:left}
+.image_left img{width:100%}
+.resume_text_right{width:73%; float:right;  margin-left: 27px;}
+.resume_text_right a{text-decoration:none}
+.download_resume a{text-decoration:none; }
+.download_resume p {
+    background: none repeat scroll 0 0 #343A5E;
+    color: white;
+    margin-top: 45px;
+    padding: 10px 8px;
+    width: 20%;
+}
+
+
+.porfolio_area{
+	background:#287e7d;
+	margin-top:100px
+}
+.porfolio_area_inn{
+	
+	margin-left: 223px;
+    margin-right: 223px;
+    width: 68%;
+	padding-top:50px;
+	padding-bottom: 30px
+}
+.porfolio_area_inn h1{text-align:center}
+.portfolio_menu{}
+.portfolio_menu ul{text-align:center}
+.portfolio_menu li{
+	list-style:none; 
+	display:inline;
+	margin-left:8px
+}
+.portfolio_menu a{
+    text-decoration:none;
+    padding: 14px 42px;
+    background:#343a5e; color:#ffffff}
+.portfolio_menu a:hover{}
+.slider_inn{margin-top:22px}
+.slider{}
+.slider ul{
+	text-align:center;
+	margin: -4px
+}
+.slider li{
+	list-style:none; 
+	display:inline;
+	margin:-2px;
+	
+}
+.slider a{text-decoration:none}
+.slider ul li a:hover{}
+.slider_1{width:25.3%}
+.slider_2{width:39.6%}
+.slider_3{width:26.2%}
+.slider_4{width:48.6%}
+.slider_5{width: 22.7%}
+.slider_6{width:20%}
+
+
+.skill_area{background:#343a5e}
+.skill_area_inn{
+		margin-left: 223px;
+    margin-right: 223px;
+    width: 68%;
+	padding-top:50px;
+	padding-bottom: 30px;
+	text-align:center
+}
+.skill_area_inn h2{ 
+   font-size:30px;
+   color:white
+}
+.skill_image img{width:70%}
+.skill_image ul{margin-left:70px}
+.skill_image li{
+	list-style:none;
+	display:inline;
+	margin-right:104px;
+	color:white
+}
+
+
+.experience_area{background:#ffffff}
+.experience_area_inn{
+	margin-left: 223px;
+    margin-right: 223px;
+    width: 68%;
+	padding-top:50px;
+	padding-bottom: 30px;
+}
+.heading h2{
+	text-align:center
+}
+.present_2012{
+	border-bottom:1px solid #595959
+}
+.experience_2012_left{
+	float:left;
+	width:30%
+}
+.experience_2012_left h6{
+	border-top: 1px solid #595959;
+	text-align:right;
+	font-size:15px
+}
+.experience_2012_left p{
+	text-align:right
+}
+.experience_2012_right{
+	float:right;
+	width:67%;
+	border-left: 1px solid #595959;
+	margin-top:20px;
+	margin-bottom:20px
+}
+.experience_2012_right_inn{
+	margin-left:20px
+}
+.ex2007_2012{
+	border-bottom:1px solid #595959
+}
+.experience_2007_2012_left{
+	float:left;
+	width:30%
+}
+.experience_2007_2012_left ul{
+	margin-left:-40px
+}
+.experience_2007_2012_left li{
+	list-style:none;
+	display:inline;
+	margin-right:13px
+}
+.experience_2007_2012_left h6 {
+	border-top: 1px solid #595959;
+	text-align:right;
+	font-size:15px
+}
+.experience_2007_2012_left p {
+	text-align:right
+}
+.experience_2007_2012_right{
+	float:right;
+	width:67%;
+	border-left: 1px solid #595959;
+	margin-top:20px;
+	margin-bottom:20px
+}
+.experience_2007_2012_right_inn{
+	margin-left:20px
+}
+
+
+
+
+.testomonial_area{
+	background:#287e7d
+}
+.testomonial_area_inn{
+	margin-left: 223px;
+    margin-right: 223px;
+    width: 68%;
+	padding-top:50px;
+	padding-bottom: 30px;
+}
+.center_text h2{
+	text-align:center
+}
+
+.test_content_left, .test_content_middle,.test_content_right{
+	float:left;
+	width:33.33%
+}
+
+.content_img_left{
+	float:left;
+	width:33%
+}
+.content_text_right{
+	float:right;
+	width:67%
+}
+.content_img_left img{
+	width:87%;
+	margin-top:20px
+}
+
+
+
+.touch_area{
+	background:white
+}
+.touch_area_inn{
+	margin-left: 223px;
+    margin-right: 223px;
+    width: 68%;
+	padding-top:50px;
+	padding-bottom: 30px;
+}
+.touch_area_inn h2{
+	text-align:center
+}
+.form_left{
+	float:left;
+	width:50%
+}
+.form_left ul{
+	margin-left:-40px
+}
+.form_left li{
+	list-style:none;
+	display:inline;
+	margin-right:12px
+}
+.form_left input[type=name], input[type=email], input[type=Phone]{
+	width:135px
+}
+.form_left textarea {
+    height: 172px;
+    width: 436px;
+}
+.text_right{
+	float:right;
+	width:50%
+}
+.frooter_map img{
+	width:100%
+}
+.frooter_social_area{
+	background:white
+}
+.frooter_social_inn{
+	margin-left: 223px;
+    margin-right: 223px;
+    width: 68%;
+	padding-top:50px;
+	padding-bottom: 10px;
+}
+.frooter_social ul{
+	text-align:center
+}
+.frooter_social li{
+	list-style:none;
+	display:inline;
+	margin-right:12px
+}
+.frooter_social img{
+	width:4%
+}
+.circle_link{
+	text-align:right;
+}
+.circle_link img{
+	width:4%
+}
+.copyright{
+	background:#343a5e
+}
+.copyright_inn{
+	margin-left: 223px;
+    margin-right: 223px;
+    width: 68%;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+.copyright_inn p{
+	text-align:center;
+	color:white
+}
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ 
+@font-face {font-family:"Open Sans Condensed Light";src:url("OpenSans-CondLight.eot?") format("eot"),url("OpenSans-CondLight.woff") format("woff"),url("OpenSans-CondLight.ttf") format("truetype"),url("OpenSans-CondLight.svg#OpenSans-CondensedLight") format("svg");font-weight:normal;font-style:normal;}

@@ -1,0 +1,84 @@
+
+.textwhite{
+	color:white;
+	margin-top:32px;
+}
+.navbar-inverse{
+	padding-bottom:18px;
+}
+
+
+
+.step_color{
+	color:green;
+	font-size:22px;
+	margin-bottom:0px;
+	margin-top:15px;
+}
+.img_border{
+	border-right:2px solid green;
+	padding-right:130px;
+}
+.padding_left_img{
+	padding-left:120px;
+}
+.padding_remove{
+	padding-right:0px !important;
+}
+.marin_top{
+	padding-top:15px;
+}
+
+
+
+.color_or{
+	color:green;
+}
+.distance_or{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+
+
+.button_design{
+	padding:8px;
+	border-radius:3px;
+	background:green;
+	color:white;
+}
+.align_button_border{
+	padding-left:77px;
+}
+.padding_right_button{
+	padding-right:50px !important;
+	padding-top:80px;
+}
+.padding_left_button{
+	padding-left:50px !important;
+	padding-top:80px;
+}
+
+
+
+.list_align{
+	border-right:1px solid white;
+	padding-right:80px;
+	padding-left:80px;
+	font-size:12px;
+	margin:0px;
+}
+.list_align:last-child{
+	border-right:none;
+	padding-right:none;
+	padding-left:80px;
+	font-size:12px;
+	margin:0px;
+}
+.navbar-nav{
+	padding-top:14px;
+	padding-left:20px !important;
+}
+a{
+	line-height:0px!important;
+}

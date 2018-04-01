@@ -1,0 +1,157 @@
+.banner-header{
+	background:url("images/notify.png") no-repeat center;
+}
+header{
+	color:white;
+	padding-top:140px;
+}
+
+header p{
+	padding-top:30px;
+	font-size:22px;
+}
+header h1{
+	font-size:60px;
+	font-family:pacifico;
+}
+
+.banner-header li{
+	margin-right:20px;
+}
+.banner-header a{
+	background:#57422e;
+	color:white;
+	border-radius:47%;
+	padding:8px 12px 8px 12px !important;
+	font-size:16px;
+	margin-bottom:177px;
+}
+.banner-header a:hover{
+	background:#2ecc71 !important;
+	color:white;
+	border-radius:47%;
+	
+}
+
+
+.header-bellow{
+	padding-top:60px;
+}
+.header-bellow a{
+	color:white;
+	font-size:26px;
+	background:#2ecc71;
+	padding:8px 12px 8px 12px;
+	border-radius:22px;
+}
+.header-bellow a:hover{
+	color:white;
+	font-size:26px;
+	background:#2ecc71;
+	padding:8px 12px 8px 12px;
+	border-radius:22px;
+	text-decoration:none;
+}
+.header-bellow h4,.get-notify h4{
+	padding-top:30px;
+	padding-bottom:30px;
+	font-size:22px;
+}
+.header-bellow p,.get-notify p{
+	color:#b5b5b5;
+	font-size:16px;
+	padding-bottom:60px;
+}
+.get-notify-img-justify{
+	padding-top:30px;
+	padding-bottom:30px;
+}
+.input-design{
+	padding-left:9px;
+	width:300px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border:none;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+	color:#b5b5b5;
+}
+.btn-design{
+	padding:4px 20px 7.5px 20px;
+	border:0px;
+	background:#2ecc71;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+	color:white;
+	font-size:22px;
+}
+
+
+
+.get-in-touch {
+	padding-top:60px;
+	padding-bottom:60px;
+}
+.get-in-touch  h5{
+	color:#b5b5b5;
+}
+.get-in-touch  p{
+	color:#b5b5b5;
+	font-size:16px;
+}
+.get-in-touch li{
+	padding-right:20px;
+}
+.get-in-touch a{
+	color:white;
+	background:#d4d4d4;
+	padding:8px 12px 8px 12px !important;
+	border-radius:22px;
+}
+.get-in-touch a:hover{
+	color:white;
+	background:#2ecc71 !important;
+	border-radius:22px;
+}
+.get-in-touch ul{
+	margin-left:446px;
+}
+
+
+
+.footer-section{
+	padding-top:56px;
+	padding-bottom:56px;
+	background:#e3e3e3;
+}
+.footer-section ul{
+	margin-left:362px;
+}
+.footer-section a{
+	color:#8a8a8a;
+	font-size:16px;
+}
+.footer-section li{
+	padding-right:8px;
+}
+.footer-section a:hover{
+	background:none !important;
+	color:#8a8a8a;
+}
+
+
+/*  Web Font   */
+
+
+h4,.btn-design{
+	font-family:Raleway;
+}
+
+@font-face{
+	font-family:pacifico;
+	src: url("font/Pacifico.ttf");
+}
+@font-face{
+	font-family:Raleway;
+	src: url("font/Raleway-SemiBold.ttf");
+}

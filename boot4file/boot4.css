@@ -1,0 +1,121 @@
+/* navbar area */
+.navbar-default{
+	background:#51423f !important;
+	border-bottom:1px solid white;
+	padding-bottom:12px !important;
+}
+a{
+	color:#d9d8d7!important;
+	text-decoration:none !important;
+}
+a:hover{
+	color:#f05f40!important;
+	background:green;
+}
+.navbar-right{
+	padding-top:15px;
+}
+.header_section{
+	padding-top:100px !important;
+}
+
+/* service area/buttin 1 area */
+
+.header_p{
+	color:#d9d8d7;
+	padding-bottom:50px;
+}
+.text-uppercase{
+	color:#fdfefe !important;
+	font-weight:bold;
+	padding-bottom:50px;
+}
+.jumbotron{
+	background:url("img/header.jpg") no-repeat center center;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	margin-bottom:0px !important;
+}
+.horizental_line1{
+	width:10%;
+	color:red;
+	padding-bottom:30px;
+}
+.button1_design{
+	padding:15px 25px 15px 25px;
+	background:#f05f40;
+	border-radius:22px;
+}
+.header1{
+	padding-bottom:30px;
+}
+h2{
+	padding-top:50px;
+}
+.glyphicon{
+	font-size:45px;
+	color:#f05f40;
+}
+.your_service{
+	margin-bottom:50px !important;
+}
+
+
+/* button two area */
+
+
+.background2{
+	background:#f05f40;
+}
+h3{
+	color:white!important;
+	padding-top:60px;
+	padding-bottom:39px;
+}
+.button2_design{
+	padding:15px 25px 15px 25px;
+	background:white;
+	border-radius:22px;
+	color:black !important;
+}
+
+/* portfolio area */
+
+.col-lg-4{
+	padding:0px !important;
+}
+.portfolio-box-caption-content{
+    bottom: 106px;
+    left: 190px;
+    position: absolute;
+	text-align:center;
+	font-weight:bold;
+}
+.portfolio-box-caption-content:hover {
+    bottom: 106px;
+    left: 190px;
+    position: absolute;
+	text-align:center;
+	background:#f05f40;
+	color:black;
+	padding:15px;
+}
+
+/* Download area */
+
+
+.background3{
+	background:#51423f !important;
+	padding-bottom:50px;
+}
+
+/* Contact area */
+.heading_contact{
+	color:black !important;
+	padding-bottom:12px;
+}
+.para_contact{
+	padding-bottom:30px;
+}

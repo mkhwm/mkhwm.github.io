@@ -1,0 +1,124 @@
+*{
+	margin:0;
+	padding:0;
+}
+.fix{
+	overflow:hidden;
+}
+body{
+	overflow-x: hidden;
+	background:url("entrance_inner_bg.png");
+	
+}
+
+
+.inner{
+	width:1171px;
+	margin:0 auto;
+}
+.main_area {
+    padding-bottom: 34px;
+    padding-top: 204px;
+}
+.picture_left {
+    float: left;
+    text-align: right;
+    width: 40%;
+}
+.picture_left img {
+    border: 5px solid #1C0E0B;
+    border-radius: 13px 13px 13px 13px;
+}
+
+.text_right{
+	float:right;
+	width:55%;
+}
+.text_right h1{
+	font-size:60px;
+	color:white;
+}
+
+.text_right p{
+	font-size:24px;
+	color:white;
+	padding-bottom:34px;
+}
+.message p{
+	font-size:24px;
+	color:white;
+	padding-bottom:34px;
+	text-align:center;
+}
+
+
+
+
+
+.logout_right {
+    float: left;
+    width: 16%;
+	text-align:right;
+	padding-top: 15px;
+}
+.picture_left {
+    float: left;
+    margin-left: 129px;
+    width: 23%;
+}
+.text_middle {
+    float: left;
+    margin-left: 49px;
+    width: 41%;
+}
+.logout_right p {
+    background: none repeat scroll 0 0 #2c2f3e;
+    border-radius: 9px 9px 9px 9px;
+    font-size: 36px;
+    padding: 6px 17px 5px;
+    width: 104px;
+}
+.logout_right a{
+	text-decoration:none;
+	color:white;
+}
+.logout_right a:hover,.message a:hover{
+	color:red;
+}
+.text_middle h1{
+	font-size:60px;
+	color:#b5175d;
+}
+.message {
+    padding-bottom: 100px;
+    padding-top: 6px;
+}
+.text_middle p{
+	font-size:24px;
+	color:#b5175d;
+	padding-bottom:34px;
+}
+.message p {
+    color: #B5175D;
+    font-size: 24px;
+    margin-left: -38px;
+    padding-bottom: 34px;
+}
+
+.message ul {
+    margin-left: 279px;
+    padding-top: 70px;
+}
+.message ul li {
+    background: none repeat scroll 0 0 #2c2f3e;
+    display: inline;
+    list-style: none outside none;
+    margin-right: 20px;
+    padding: 26px 33px 10px;
+	border-radius:9px;
+}
+.message a{
+	text-decoration:none;
+	color:white;
+	font-size:36px;
+}

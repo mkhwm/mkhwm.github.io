@@ -1,0 +1,98 @@
+.nav_header{
+	background:white!important;
+	margin-bottom:0px !important;
+}
+
+
+.logo_padding{
+	padding:0px !important;
+	padding-left:15px !important;
+}
+.text_padding{
+	padding:0px !important;
+}
+.navbar-right{
+	padding-right:0px !important;
+	margin-bottom:0px !important;
+}
+.abbr_company{
+	margin:0px;
+	padding-top:5px;
+	text-align:right;
+}
+
+.abbr_company, .text_padding a{
+	color:#004ea8 !important;
+	font-weight:bold;
+}
+.text_padding a:hover{
+	color:#004ea8 !important;
+	font-weight:bold;
+}
+.button_search{
+	background:#004ea8;
+	border:1px solid #cccccc;
+	border-radius:3px;
+}
+.input_search{
+	border-radius:2px;
+	border:1px solid #cccccc;
+	padding-left:5px;
+	font-size:12px;
+}
+/********************/
+
+.nav_heading2{
+	background:#004ea8 !important;
+	border-radius:0px !important;
+	margin-bottom:0px !important;
+}
+.dropdown_bg{
+	background:#4094f6 !important;
+}
+.text_color_nav2{
+	
+}
+.nav2_color{
+	color:white !important;
+}
+.left_text_color li a:hover, .right_nav2 li a:hover{
+	background:#425770 !important;
+}
+
+
+
+
+
+
+/*        inner
+--------------------------- */
+#demo1{
+	background:white;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin:0px;
+}
+#heading{
+		font-size:36px;
+		color:#f30a72;
+}
+#para1{
+	font-size:14px;
+}
+#demo2{
+	background:white;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin:0px;
+}
+#heading2{
+		font-size:36px;
+		color:#f30a72;
+}
+#para2{
+	font-size:14px;
+}
+.padding_bottom_btn{
+	margin-bottom:50px;
+}

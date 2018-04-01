@@ -1,0 +1,239 @@
+*{
+	margin:0px;
+    padding:0px;
+}
+
+.fix{
+	overflow:hidden
+}
+body{
+	max-width:100%;
+	overflow-x:hidden;
+}
+
+.logout p {
+    font-size: 24px;
+    margin-left: 1425px;
+    margin-top: 336px;
+    position: absolute;
+}
+.logout a {
+    text-decoration:none;
+	color:black;
+}
+.logout a:hover {
+    color:red;
+}
+.logout a:visited {
+    color:blue;
+}
+
+
+.header_area{
+	background:white;
+}
+.header_area_inn,.main_content_area_inn,.footer_social_inn,.footer_copyright_inn{
+	width:1171px;
+	margin: 0 auto;
+}
+.header_area_inn h1{
+	font-size:130px;
+	margin-top:114px
+}
+.header_area_inn p{
+	font-size:14px;
+}
+.with_out_border {
+	margin-top:49px;
+	margin-bottom:76px;
+}
+.with_border_left a, .without_border_right a{
+	text-decoration:none;
+	color:black;
+}
+.with_border_left a:hover,.without_border_right a:hover{
+	color:#d4add1;
+}
+.with_border_left li {
+	list-style:none;
+	display:inline;
+	margin-right:22px;
+	font-size:24px;
+	border-right:2px solid #818080;
+    padding-right:30px;
+}
+.with_border_left{
+	float:left;
+	width:40%;
+}
+.without_border_right{
+	float:right;
+	width:60%;
+}
+.without_border_right p {
+	font-size:24px;
+	
+}
+
+
+.banner_text_and_img_area{
+	padding-bottom:136px;
+	border-bottom:1px solid #848383;
+	margin-bottom:136px;
+}
+.banner_img_left{
+	float:left;
+	width:32%;
+}
+.banner_text_right{
+	float:right;
+	width:68%;
+}
+.about_school_left {
+    float: left;
+    padding-left: 30px;
+    width: 52%;
+}
+
+.more_read a{
+	text-decoration:none;
+	color:#bd81ba;
+	font-size:24px;
+}
+.about_school_left h2,.why_us_right h2{
+	font-size:60px;
+	color:#bd81ba;
+	margin-bottom:42px;
+}
+.about_school_left p,.mission_left p,.testimonial_right p{
+	font-size:18px;
+	color:#b5b4b4;
+	margin-bottom:32px;
+}
+.text_list_right ul,.greater_sign_list_left ul{
+	font-size:18px;
+	color:#b5b4b4;
+	margin-bottom:12px;
+}
+.why_us_right{
+	float:right;
+	width:30%;
+}
+.greater_sign_list_left{
+	float:left;
+	width:10%;
+}
+.text_list_right{
+	float:right;
+	width:90%;
+}
+
+
+.mission_testimonial_area{
+	padding-bottom:131px;
+	border-bottom:1px solid #848383;
+	position:relative;
+}
+.mission_left{
+	float:left;
+	width:670px;
+	padding-right:55px;
+}
+.mission_left h3{
+	font-size:48px;
+	color:#bd81ba;
+	margin-bottom:32px;
+}
+.testimonial_right {
+    background: none repeat scroll 0 0 #AF9AAE;
+    float: right;
+    padding: 38px;
+    width: 298px;
+}
+.testimonial_right p{
+	font-size:18px;
+	color:#6d696c;
+	margin-bottom:38px;
+}
+.testimonial_right h4{
+	font-size:36px;
+	color:#6d696c;
+	margin-bottom:38px;
+}
+.testimonial_right h5{
+	font-size:24px;
+	color:#80637f;
+	text-align:right;
+}
+.circle_arrow{
+	position:absolute;
+	margin-left:1667px;
+	margin-top:-44px;
+}
+
+
+
+.footer_icon_left{
+	float:left;
+	width:70%;
+}
+.home_icon_and_address{
+	float:left;
+	width:50%;
+}
+.gmail_icon_and_address{
+	float:right;
+	width:50%;
+}
+.icon_left{
+	float:left;
+	width:6%;
+}
+.icon_address_right{
+	float:right;
+	width:86%;
+}
+.footer_text_right{
+	float:right;
+	width:30%;
+}
+.footer_text_with_border_left{
+	float:left;
+	width:85%;
+}
+.footer_text_with_border_left ul{
+	text-align:right;
+}
+.footer_text_with_border_left li{
+	list-style:none;
+	display:inline;
+	border-right:2px solid #818080;
+	padding-right:28px;
+	margin-right:28px;
+}
+.footer_text_with_border_left a,.footer_text_without_border_right a{
+	text-decoration:none;
+	color:#363535;
+}
+.footer_text_without_border_right{
+	float:right;
+	width:15%;
+}
+.footer_social_inn{
+	padding:38px 0px;
+	width:1171px;
+	margin:0 auto; 
+}
+.icon_address_right p,.footer_text_with_border_left,.footer_text_without_border_right p{
+	font-size:14px;
+	color:#b5b4b4;
+}
+.footer_copyright{
+	background:#af9aae;
+}
+.footer_copyright_inn{
+	width:1171px;
+	margin:0 auto; 
+	font-size:14px;
+	padding:38px 0px;
+}
